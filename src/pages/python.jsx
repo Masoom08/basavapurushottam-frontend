@@ -1,5 +1,5 @@
 import Hero from "../components/Python/hero.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function Python() {
   return (

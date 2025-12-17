@@ -1,5 +1,5 @@
 import MediaGrid from "../components/Media/MediaGrid";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function Education() {
   return (
