@@ -24,7 +24,7 @@ export default function Header() {
           
           {/* Logo / Brand */}
           <h1 className="text-lg font-semibold text-gray-800">
-            Basava
+            Dr. B.V.R.C Purushottam
           </h1>
 
           {/* Desktop Nav */}

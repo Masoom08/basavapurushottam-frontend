@@ -1,33 +1,55 @@
-import React from "react";
-//import pythonImg from "./python.png"; // Make sure the image is in the src folder or adjust the path
-
-const LearnPython = () => {
+const Hero = () => {
   return (
-    <div className="pt-24 bg-[#c6dce3] font-serif min-h-screen">
-    
-      {/* MAIN SECTION */}
-      <div className="flex justify-center items-start py-10 px-6 md:px-20 gap-10 flex-wrap">
-        <div className="bg-white p-5 rounded-xl shadow-md">
-          <img src="https://basavapurushottam.com/wp-content/uploads/2025/12/fcd1be17-026a-472f-acf1-b3bed4e67e32.png" alt="Python" className="w-[300px] rounded-lg" />
+    <section className="max-w-6xl mx-auto px-6 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-14 items-start">
+
+        
+        <div className="md:col-span-2 flex justify-center md:justify-start">
+          <div className="bg-white p-2 rounded-[2.75rem] shadow-xl">
+          <img
+            src="https://basavapurushottam.com/wp-content/uploads/2025/12/fcd1be17-026a-472f-acf1-b3bed4e67e32.png"
+            alt="Learn Python"
+            className="w-[360px] object-cover rounded-[2.5rem]"
+          />
+          </div>
         </div>
 
-        <div className="bg-[#e8a27f] p-10 w-[500px] rounded-lg shadow-lg transform -rotate-1">
-          <h1 className="text-center text-3xl mt-0">Learn With me</h1>
-          <p className="mt-4">
-            Welcome to “Learn Python with Me”—a dedicated space where I’m beginning my journey as a complete newcomer to Python and inviting you to learn right alongside me. My motivation is simple and strong: I want to enter the world of artificial intelligence, and Python is the doorway.
-          </p>
-          <p className="mt-4">
-            As I take my first steps, I’ll share everything I learn—twice a week—through blogs shaped by my own struggles, small victories, experiments, and the YouTube tutorials that guide me. The purpose of this page is not just to learn Python, but to make it understandable in the simplest way possible, especially for those who feel overwhelmed at the start.
-          </p>
-          <p className="mt-4">
-            Think of this as a shared path where we grow together, learning the language of the future one challenge at a time.
-          </p>
+        {/* RIGHT CONTENT */}
+        <div className="md:col-span-3 font-serif text-[#1f2d3d]">
+          <h1 className="text-4xl font-bold mb-6">
+            Learn Python with me
+          </h1>
+
+          <div className="space-y-6 text-lg leading-relaxed">
+            <p>
+              Welcome to <strong>Learn Python with Me</strong>—a space where I’m
+              starting as a complete beginner and inviting you to learn right
+              alongside me. My motivation is simple: Python is the doorway to
+              Artificial Intelligence, and this is where the journey begins.
+            </p>
+
+            <p>
+              As I take my first steps, I’ll share everything I learn—my
+              struggles, small wins, experiments, and the resources that help
+              me move forward. No assumptions, no shortcuts, and no pressure to
+              already know anything.
+            </p>
+
+            <p>
+              This page is built for anyone who feels overwhelmed at the start
+              and wants a slow, clear, beginner-friendly path into programming.
+            </p>
+
+            <p>
+              Think of this as a shared journey where we grow together, one
+              concept at a time.
+            </p>
+          </div>
         </div>
+
       </div>
-
-      
-    </div>
+    </section>
   );
 };
 
-export default LearnPython;
+export default Hero;
