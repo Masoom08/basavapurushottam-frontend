@@ -1,5 +1,7 @@
 import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { categorySlugMap } from "./Blogs/category";
+
 
 export default function SwipeCard({ title, slides }) {
   const navigate = useNavigate();
@@ -72,11 +74,14 @@ export default function SwipeCard({ title, slides }) {
         </p>
 
         <button
-          onClick={() => navigate(`/blogs/${current.id}`)}
-          className="font-[Time-New-Roman] bg-[#d7a48f] text-black px-5 py-2 rounded-full text-sm font-semibold"
+          onClick={() =>
+            navigate(`/blogs/${categorySlugMap[title]}/${current.id}`)
+          }
+          className="bg-[#d7a48f] px-5 py-2 rounded-full font-semibold"
         >
           Read More
         </button>
+
 
         {/* ✅ DOTS (CLICKABLE) */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">

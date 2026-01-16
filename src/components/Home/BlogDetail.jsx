@@ -6,11 +6,17 @@ import Footer from "../Footer";
 import BlogMetaCard from "./Blogs/BlogMetaCard";
 
 export default function BlogDetail() {
-  const { id } = useParams();
+  const { category,id } = useParams();
 
-  const blog = blogData
-    .flatMap(section => section.slides)
-    .find(item => item.id === id);
+  const section = blogData.find(section => {
+  if (category === "work") return section.title === "Work and Office";
+  if (category === "personal") return section.title === "Personal";
+  if (category === "news") return section.title === "News and Media";
+  return false;
+});
+
+const blog = section?.slides.find(item => item.id === id);
+
 
   if (!blog) return <p className="text-center">Blog not found</p>;
 
@@ -51,10 +57,7 @@ export default function BlogDetail() {
             </p>
 
             <div
-              className="prose prose-lg font-serif max-w-none 
-                        prose-p:leading-relaxed
-                        prose-p:mb-0
-                        prose-p:not(:last-child):mb-8"
+              className="blog-content font-serif text-[17px]"
               dangerouslySetInnerHTML={{ __html: blog.content }}
             />
           </div>

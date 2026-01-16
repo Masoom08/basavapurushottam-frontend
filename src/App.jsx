@@ -11,6 +11,7 @@ import Career from "./pages/career";
 import Media from "./pages/media";  
 import BlogDetail from "./components/Home/BlogDetail";
 import LearnAIWithMe from "./pages/ai";
+import Blog from "./pages/blogs";
 
 export default function App() {
   return (
@@ -26,9 +27,10 @@ export default function App() {
         <Route path="/spiritual" element={<Spiritual />} />
         <Route path="/spiritual/geeta" element={<GeetaPage />} />
         <Route path="/philosophy" element={<Philosophy/>} />
-        <Route path="/blogs/:id" element={<BlogDetail />} />
+        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blogs/:category/:id" element={<BlogDetail />} />
         <Route path="/learn-ai" element={<LearnAIWithMe />} />
-
+        
       </Routes>
     </>
   );
