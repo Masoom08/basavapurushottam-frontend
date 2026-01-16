@@ -937,6 +937,17 @@ export const blogData = [
         heading: "Visualizing Correlation: A Practical Guide",
         sub: "by BVRC Purushottam | 6 December 2025 | Dairy, Stories through Data| 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a ..."
       },
@@ -946,6 +957,17 @@ export const blogData = [
           "The Banyan Tree Conversation: Economics of a Better Herd",
         sub: "by BVRC Purushottam | 30 November 2025 | Personal Blog| 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "Introduction In the heart of rural India, traditional wisdom meets modern science. This story illustrates the transformative potential of advanced cattle breeding technologies—Genomics, Embryo Transfer (ET), and Sexed Semen—compared to traditional Artificial..."
       },
@@ -955,6 +977,17 @@ export const blogData = [
           "Strengthening India’s Livestock Sector Through Feed Optimization-A Data-Driven Perspective on Opportunities in Animal Husbandry",
         sub: "by BVRC Purushottam | 27 November 2025 | Personal Blog| 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "Disclaimer: This article presents a data-driven analysis based on publicly available government reports (NSSO, ICAR, Ministry publications). The views expressed are personal and do not represent official policy positions. They should not be construed as criticism of..."
       },
@@ -964,6 +997,17 @@ export const blogData = [
           "Building Bridges: Rural India’s ₹5 Lakh Crore Financial Inclusion Opportunity",
         sub: "by BVRC Purushottam | 23 November 2025 | Personal Blog| 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "In rural India, where 70% of the nation resides, a remarkable foundation is already in place: 73% of households demonstrate sound financial behaviour, regularly saving and managing their money wisely. This strong foundation presents an unprecedented opportunity..."
       },
@@ -973,6 +1017,17 @@ export const blogData = [
           "The Tale of Two Loans:",
         sub: "by BVRC Purushottam | 15 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "Understanding Real vs. Nominal Interest Rates in India's Evolving Economy Part 1: The Celebration (April 2021) Rajesh Mehta was beaming as he stirred his chai in the office cafeteria. His colleague Priya Sharma noticed his unusually cheerful mood. 'You look happy,..."
       },
@@ -982,6 +1037,17 @@ export const blogData = [
           "Stories through Data : Week 1 , A Families Financial Awakening.",
         sub: "by BVRC Purushottam | 9 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:
           "In rural India, where 70% of the nation resides, a remarkable foundation is already in place: 73% of households demonstrate sound financial behaviour, regularly saving and managing their money wisely. This strong foundation presents an unprecedented opportunity..."
       },
@@ -990,6 +1056,17 @@ export const blogData = [
         heading:"Stories_through_data_week1.Download Stories through Data : Week 2 , Credit card loans vs Housing Loans",
         sub:"by BVRC Purushottam | 9 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
+        author: "Basava",
+        date: "Dec 6, 2025",
+        category: "Dairy, Stories through Data",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p>
+            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          </p>
+          `,
         desc:"Welcome to Stories with Data, Week 2 Today we will examine the problem of Rising Credit Card Defaults and Personal Loan Portfolio Management in Scheduled Commercial Banks The Banker's Dilemma A story of credit, risk, and the numbers that keep bankers awake at night...",
       }
     ]
@@ -999,17 +1076,170 @@ export const blogData = [
     title: "News and Media",
     slides: [
       {
+        id: "1",
         heading: "Statement on Increase in Trout Fish Farming",
         sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220614-WA0002-1536x1521-1.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Fisheries | News/Media",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p></p>
+          `,
         desc:
-          "Official statement highlighting the rise in trout fish farming initiatives."
+          ""
       },
       {
+        id: "2",
         heading: "Increase in Target for Trout Fish Farming",
         sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220614-WA0000-1536x1473-1-1280x1228.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Fisheries | News/Media",
+        tags: [ 
+          "",
+        ],
+        content: `
+          <p></p>
+          `,
         desc:
-          "Government increases targets to promote trout fish farming across suitable regions."
-      }
+          ""
+      },
+      {
+        id: "3",
+        heading: "Field visit after assuming the new office.",
+        sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/WhatsApp-Image-2022-05-03-at-10.24.16-AM-1536x1000-1-1280x833.jpeg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ 
+          "cooperative"," Cooperative societies" , "MPACS","UKCDP",
+        ],
+        content: `
+          <p></p>
+          `,
+        desc:
+          ""
+      },
+      {
+        id: "4",
+        heading: "Urging officials to become tech savvy.",
+        sub: "News Update",
+        image:["	https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0048.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: ["MPACS","UKCDP",
+        ],
+        content: `
+          <p></p>
+          `,
+        desc:
+          ""
+      },
+      {
+        id: "5",
+        heading: "Urging officials to highlight daily developments.",
+        sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0027-768x483-1.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: ["MPACS","UKCDP",
+        ],
+        content: `
+          <p></p>
+          `,
+        desc:
+          ""
+      },
+      {
+        id: "6",
+        heading: "Urging officials to work on development policies.",
+        sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0031-1536x1492-1.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ "cooperative"," Cooperative societies" ,"MPACS","UKCDP",
+        ],
+        content: `
+          <p></p>
+          `,
+        desc:""
+      },
+      {
+        id: "7",
+        heading: "Urging officials to tweet daily developments.",
+        sub: "News Update",
+        image:["	https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0032-1536x1391-1.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ " Cooperative societies" ,"meeting","MPACS","UKCDP",
+        ],
+        content: `
+          <p></p>
+          `,
+        desc:
+          ""
+      },
+      {
+        id: "8",
+        heading: "Pushpa Harela Festival",
+        sub: "News Update",
+        image:["	https://basavapurushottam.com/wp-content/uploads/2024/07/Pushp-Harela-Festival.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ " Cooperative societies" ,"meeting","MPACS","UKCDP",
+        ],
+        content: `
+          <h2>Pushpa Harela Festival</h2>
+          <p>Witnessed Pushpa Harela Festival arranged by MPACS at Shyampur, Laldhang</p>
+          `,
+        desc:
+          "Witnessed Pushpa Harela Festival arranged by MPACS at Shyampur, Laldhang."
+      },
+      {
+        id: "9",
+        heading: "Women Participation in MPACS",
+        sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/MPACS-Women-involvement.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ " Cooperative societies" ,"meeting","MPACS","UKCDP",
+        ],
+        content: `
+          <h2>Women Participation in MPACS</h2>
+          <p>Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc.</p>
+          `,
+        desc:
+          "Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc."
+      },
+       {
+        id: "10",
+        heading: "First Meeting on Network for the Development of Agricultural Cooperatives in Asia and Pacific",
+        sub: "News Update",
+        image:["https://basavapurushottam.com/wp-content/uploads/2024/07/NEDAC-meeting-pic.jpg"],
+        author: "Basava",
+        date: "Jul 17, 2024",
+        category: "Departmental | News/Media",
+        tags: [ " Cooperative societies" ,"meeting","MPACS","UKCDP",
+        ],
+        content: `
+          <h2>Women Participation in MPACS</h2>
+          <p>Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc.</p>
+          `,
+        desc:
+          "Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc."
+      },
     ]
   }
 ];
