@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { categorySlugMap } from "./Blogs/category";
+import { categorySlugMap } from "../Blogs/category";
 
 
 export default function SwipeCard({ title, slides }) {

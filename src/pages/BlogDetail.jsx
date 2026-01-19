@@ -1,9 +1,7 @@
 import { useParams } from "react-router-dom";
-import { blogData } from "./SwipeCardsSection"; // same data file
-import React from "react";
-import ReaderResponse from "./Blogs/ReaderResponse";
-import Footer from "../Footer";
-import BlogMetaCard from "./Blogs/BlogMetaCard";
+import { blogData } from "../components/Blogs/BlogData"; 
+import ReaderResponse from "../components/Blogs/ReaderResponse";
+import BlogMetaCard from "../components/Blogs/BlogMetaCard";
 
 export default function BlogDetail() {
   const { category,id } = useParams();
@@ -68,8 +66,7 @@ const blog = section?.slides.find(item => item.id === id);
       {/* READER RESPONSE */}
       <ReaderResponse />
 
-      {/* FOOTER */}
-      <Footer />
+      
     </>
   );
 }

@@ -9,9 +9,10 @@ import Philosophy from "./pages/philosophy";
 import Education from "./pages/educations";
 import Career from "./pages/career";
 import Media from "./pages/media";  
-import BlogDetail from "./components/Home/BlogDetail";
+import BlogDetail from "./pages/BlogDetail";
 import LearnAIWithMe from "./pages/ai";
 import Blog from "./pages/blogs";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/learn-ai" element={<LearnAIWithMe />} />
         
       </Routes>
+      <Footer />
     </>
   );
 }

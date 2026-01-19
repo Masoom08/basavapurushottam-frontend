@@ -13,6 +13,7 @@ export default function Header() {
     { to: "/spiritual", label: "Spiritual" },
     { to: "/learn-python", label: "Learn Python With Me" },
     { to: "/learn-ai", label: "Learn AI With Me" },
+    { to: "/philosophy", label: "Random Thoughts About Philosophy"},
     { to: "/blogs", label: "Blogs" }
   ];
 
