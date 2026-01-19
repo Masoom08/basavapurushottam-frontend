@@ -1,5 +1,4 @@
-export default function Recommendations() {
-  const data = [
+const data = [
     {
       img: "https://basavapurushottam.com/wp-content/uploads/2024/07/T1.jpg",
       text: "Purushottam Basava is an upright career IAS officer, hard working, honest, follows the process with absolute due diligence, at the same time kind and helpful and humane in approach. He draws his strength from his deep rooted spiritual moorings.",
@@ -43,57 +42,3 @@ export default function Recommendations() {
       org: "SpiceJet Ltd",
     },
   ];
-  return (
-    <section className="py-16 font-[Times_New_Roman] text-gray-800">
-      
-      {/* CONTAINER */}
-      <div className="max-w-6xl mx-auto px-6">
-
-        {/* SECTION HEADER */}
-        <div className="text-center mb-12">
-          <div className="flex justify-center mb-6">
-            <div className="h-[4px] w-[50%] bg-[#efb09d]"></div>
-          </div>
-
-          <h2 className="text-4xl font-bold tracking-wide">
-            Recommendations
-          </h2>
-        </div>
-
-        {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {data.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center text-center"
-            >
-              {/* Image */}
-              <img
-                src={item.img}
-                alt={item.name}
-                className="w-32 h-32 object-cover rounded-full border-4 border-[#efb09d] mb-4 shadow-md"
-              />
-
-              {/* Quote */}
-              <p className="italic text-[14px] leading-relaxed mb-4 max-w-sm">
-                {item.text}
-              </p>
-
-              {/* Name */}
-              <p className="font-bold uppercase tracking-wide text-[14px]">
-                {item.name}
-              </p>
-
-              {/* Designation */}
-              <p className="text-[14px]">{item.role}</p>
-
-              {/* Org */}
-              <p className="font-semibold text-[14px]">{item.org}</p>
-            </div>
-          ))}
-        </div>
-
-      </div>
-    </section>
-  );
-}

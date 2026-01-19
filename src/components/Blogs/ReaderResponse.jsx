@@ -1,6 +1,7 @@
 export default function ReaderResponse() {
   return (
-    <section className="relative bg-[#d7a48f] py-6 px-6"> {/* bg-[#f7b190] */}
+    <section className="relative bg-[#d7a48f] py-16 px-6">
+
       {/* LEFT SOCIAL ICON BAR */}
       <div className="hidden md:flex flex-col absolute left-0 top-1/2 -translate-y-1/2">
         <a className="bg-[#3b5998] text-white w-12 h-12 flex items-center justify-center">f</a>
@@ -18,21 +19,20 @@ export default function ReaderResponse() {
         </h2>
 
         {/* FORM */}
-        <form className="space-y-10">
+        <form className="max-w-4xl mx-auto space-y-10">
 
           {/* NAME + EMAIL */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <input
               type="text"
               placeholder="Name"
-             className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none max-w-sm w-full mx-auto"
+              className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none w-full"
             />
 
             <input
               type="email"
               placeholder="Email Address"
-              className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none max-w-sm w-full mx-auto"
-
+              className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none w-full"
             />
           </div>
 
@@ -40,8 +40,7 @@ export default function ReaderResponse() {
           <textarea
             rows="7"
             placeholder="Message"
-            className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none resize-none max-w-4xl w-full mx-auto block"
-
+            className="bg-[#f2f2f2] font-serif px-6 py-4 rounded-xl shadow-md focus:outline-none resize-none w-full"
           />
 
           {/* SUBMIT */}

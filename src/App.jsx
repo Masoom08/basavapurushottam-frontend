@@ -13,11 +13,15 @@ import BlogDetail from "./pages/BlogDetail";
 import LearnAIWithMe from "./pages/ai";
 import Blog from "./pages/blogs";
 import Footer from "./components/Footer";
+import PhilosophyDetail from "./pages/PhilosophyDetail";
+import ScrollToTop from "./components/ScrollToTop";
+import PythonDetail from "./pages/PythonDetail";
 
 export default function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
@@ -31,7 +35,8 @@ export default function App() {
         <Route path="/blogs" element={<Blog />} />
         <Route path="/blogs/:category/:id" element={<BlogDetail />} />
         <Route path="/learn-ai" element={<LearnAIWithMe />} />
-        
+        <Route path="/philosophy/:id" element={<PhilosophyDetail />} />
+        <Route path="/python/:id" element={<PythonDetail />} />
       </Routes>
       <Footer />
     </>

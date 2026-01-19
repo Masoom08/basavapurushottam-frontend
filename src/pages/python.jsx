@@ -1,9 +1,11 @@
 import Hero from "../components/Python/hero.jsx";
+import PythonCard from "../components/Python/PythonCard.jsx";
 
 export default function Python() {
   return (
-    <div className="pt-24 min-h-screen bg-gradient-to-b from-[#b7d2db] to-[#d7a48f]">
+    <div className=" pb-4 min-h-screen bg-white">
       <Hero />
+      <PythonCard />
     </div>
   );
 }
