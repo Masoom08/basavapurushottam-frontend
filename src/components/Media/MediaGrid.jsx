@@ -1,20 +1,30 @@
 import MediaCard from "./MediaCard";
-import { mediaData } from "./mediaData";
+import { blogData } from "../Blogs/BlogData";
 
 export default function MediaGrid() {
-  return (
-    <div className=" pt-24 min-h-screen px-6 md:px-20 py-12 max-w-6xl mx-auto leading-relaxed text-gray-800">
-      <div className="max-w-4xl mx-auto space-y-6 font-serif ">
-      <h1 className="text-3xl font-bold mb-8 text-left tracking-wide">
-        Media
-      </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {mediaData.map((item, index) => (
-          <MediaCard key={index} item={item} />
-        ))}
+  const mediaSection = blogData.find(
+    section => section.title === "News and Media"
+  );
+
+  const mediaPosts = mediaSection?.slides || [];
+
+  return (
+    <div className="pt-24 bg-gradient-to-b from-[#b7d2db] to-[#d7a48f] min-h-screen px-6 md:px-20 py-12">
+      <div className="max-w-6xl mx-auto font-serif">
+
+        <h1 className="text-3xl font-bold mb-10 tracking-wide">
+          Media
+        </h1>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {mediaPosts.map((item) => (
+            <MediaCard key={item.id} item={item} />
+          ))}
+        </div>
+
       </div>
-    </div>
     </div>
   );
 }
+

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Spiritualbg from "../../assets/spiritual.jpg";
 
 export default function Hero() {
   const bgUrl =
@@ -10,11 +11,12 @@ export default function Hero() {
   return (
     <section
       className="font-[Times_New_Roman] w-full min-h-screen bg-cover bg-center flex items-center justify-center py-24 relative"
-      style={{ backgroundImage: `url('${bgUrl}')` }}
+      style={{ backgroundImage: `url(${Spiritualbg})` }}
+      // style={{ backgroundImage: `url('${bgUrl}')` }}
       aria-label="My Spiritual Journey hero"
     >
       {/* translucent overlay */}
-      <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
+      {/* <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div> */}
 
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="bg-white/60 backdrop-blur-lg rounded-2xl p-6 md:p-10 lg:p-12 shadow-2xl">

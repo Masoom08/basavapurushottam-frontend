@@ -37,13 +37,13 @@ export default function Newsletter() {
             />
 
             {/* Simple Math Captcha */}
-            <div className="flex items-center gap-4 text-gray-700">
+            {/* <div className="flex items-center gap-4 text-gray-700">
               <span className="text-lg font-medium">5 + 3 =</span>
               <input
                 type="text"
                 className="w-16 p-2 rounded-xl bg-white shadow-md outline-none"
               />
-            </div>
+            </div> */}
 
             {/* Button */}
             <button className="bg-[#4a5568] text-white text-lg font-semibold px-8 py-3 rounded-xl shadow-md w-fit hover:bg-[#2d3748] transition">

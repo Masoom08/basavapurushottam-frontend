@@ -8,7 +8,7 @@ export const blogData = [
         sub: "by Basava | 1 August 2022 | Cooperative, The Office, Uttarakhand Cooperative Development Project | 0 Comments",
         author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -17,6 +17,11 @@ export const blogData = [
         ],
         image: ["https://basavapurushottam.com/wp-content/uploads/2024/07/Computerization-pic-980x551.jpg"],
         content: `
+        <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/Computerization-pic-980x551.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           <p>
           Dr. Dhan Singh Rawat, the cabinet minister of the cooperative department
            of Uttarakhand, had first dreamed of digitization of multipurpose 
@@ -142,7 +147,7 @@ export const blogData = [
         sub: "by Basava | 17 July 2022 | Cooperative, The office, Uttarakhand Cooperative Development Project | 0 Comments",
         author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -151,6 +156,11 @@ export const blogData = [
         ],
         image: ["https://basavapurushottam.com/wp-content/uploads/2024/07/CC-inauigration-1.jpg"],
         content: `
+          <img 
+            src="https://basavapurushottam.com/wp-content/uploads/2024/07/CC-inauigration-1.jpg"
+            alt="Article illustration"
+            style="max-width:100%; height:auto;"
+          />
           <p>
             Pushpa Harela Festival was celebrated at Shyampur by Laldhang MPACS
             under the CCF model. </p>
@@ -231,8 +241,16 @@ export const blogData = [
             Rs. 43,850.
           </p>
 
-
-                    
+          <img 
+            src="https://basavapurushottam.com/wp-content/uploads/2024/07/CC-opening-MPACS-1-300x169.jpg"
+            alt="Article illustration"
+            style="max-width:50%; height:auto;"
+          />
+          <img 
+            src="https://basavapurushottam.com/wp-content/uploads/2024/07/Planting-1-300x270.jpg"
+            alt="Article illustration"
+            style="max-width:500%; height:auto;"
+          />        
         `,
         desc:
           "Pushpa Harela Festival was celebrated at Shyampur, by Laldhang MPACS under CCF model. Also Collection Centre for flowers & other agro produce was inauguration. Active participation of women in CCF activities like turmeric, mint, marigold cultivation through MPACS..."
@@ -246,7 +264,7 @@ export const blogData = [
           "Mission Amrit Sarovar review meeting was held under Chairpersonship of Secretary, Rural Development- GoI. Key emphasis was laid on meeting the timeline for the set objectives. Expectation from State govt on Mission Amrit Sarovar was laid down with following points:...",
         author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -256,17 +274,28 @@ export const blogData = [
         image: ["https://basavapurushottam.com/wp-content/uploads/2024/07/Resized-AmritSarovar-1.jpg"],
         content: `
           <p>
-            First meeting of “National Level Monitoring & Implementation Committee” (NLMIC) for “Computerization of PACS” was held on 8-07-2022. District level and state level Implementation & Monitoring Committee to be formed by State Government and provide feedback to NLMIC on progress of computerization. NABARD will be responsible for implementation of project at Central level under guidance of National level Monitoring and Implementation Committee. Project Monitoring Unit (PMU) will be set up at Central level by NABARD and this will be manned by technical experts for finalizing project design & implementation strategy. All states will have common software implementation at PACS, for further synchronization with National Level PACS Software. Components cost for PACS, like (Hardware, digitization & support system) will be shared in the ratio GoI: State (60:40). For software, training & PMU cost will be transferred to NABARD by GoI as per payment timelines of the contract with National Level PACS Software Vendor (NLPSV). Timeline for PACS computerization is planned in Year wise phasing of the project:
+            Mission Amrit Sarovar review meeting was held under Chairpersonship of Secretary, Rural 
+            Development- GoI. Key emphasis was laid on meeting the timeline for the set objectives. 
+            Expectation from State govt on Mission Amrit Sarovar was laid down with following points:
 
-            Year 1: 2022-23(13000 PACS)
+            </p>
+            <img 
+              src="https://basavapurushottam.com/wp-content/uploads/2024/07/Resized-AmritSarovar-1.jpg"
+              alt="Article illustration"
+              style="max-width:100%; height:auto;"
+            />
 
-            Year 2: 2023-24(20000 PACS)
+            <p>1.It was advised to plan mobilization of user group.<br>
+              2.Regular monitoring with District Nodal Officer by the State.<br>
+              3.Listing of name of dignitaries for flag hoisting on 15th August at Amrit Sarovar site.<br>
+              4.Preparation for plantation at Amrit Sarovar location.<br>
+              5.To coordinate with concerned central agency, Railways and NHAI for mapping of Amrit Sarovar.<br>
+              6.Geotagged photos of started/completed works to be shared.<br>
+              7.Quality of photos & videos to be maintained while sharing.<br>
+              8.Reason for non-commencement of works on selected sites to be updated.<br>
+            </p>
 
-            Year 3: 2024-25(30000 PACS)
-
-            Year 4: 2025-26 & Year 5: 2026-27, Total of 63000 PACS. 
-            Uttarakhand State has 670 PACS in total, 645 out of 670 are being computerized, difference of 25 PACS is in the progress of being merged together. Hardware has been distributed to 643 PACS. Key components for PACS computerization: ERP Solution, Hardware, PMUs, Training, Support & maintenance. As per NLMIC guidelines responsibility of State Government will be as follows: Opening of SNA account, Audit of PACS, facilitating NABARD to set up SLIMC & DLIMC and meeting their covenants, approval of operational guidelines of the project. </p>
-           
+            <p>In Uttarakhand State there is a good progress on Mission Amrit Sarovar , with aim of completing 375 Amrit Sarovar before 13th August 2022.</p>
         `,
     
       },
@@ -277,7 +306,7 @@ export const blogData = [
         sub: "by Basava | 9 July 2022 | Cooperative, The office, Uttarakhand Cooperative Development Project | 0 Comments",
          author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -287,18 +316,48 @@ export const blogData = [
         image: ["https://basavapurushottam.com/wp-content/uploads/2024/07/NLMIC-PIC-2-1280x720.jpg",
                 "https://basavapurushottam.com/wp-content/uploads/2024/07/NLMIC-PIC-1-scaled.jpg"],
         content: `
-          <p>
             <p>
-            First meeting of “National Level Monitoring & Implementation Committee” (NLMIC) for “Computerization of PACS” was held on 8-07-2022. District level and state level Implementation & Monitoring Committee to be formed by State Government and provide feedback to NLMIC on progress of computerization. NABARD will be responsible for implementation of project at Central level under guidance of National level Monitoring and Implementation Committee. Project Monitoring Unit (PMU) will be set up at Central level by NABARD and this will be manned by technical experts for finalizing project design & implementation strategy. All states will have common software implementation at PACS, for further synchronization with National Level PACS Software. Components cost for PACS, like (Hardware, digitization & support system) will be shared in the ratio GoI: State (60:40). For software, training & PMU cost will be transferred to NABARD by GoI as per payment timelines of the contract with National Level PACS Software Vendor (NLPSV). Timeline for PACS computerization is planned in Year wise phasing of the project:
+            First meeting of “National Level Monitoring & Implementation Committee” (NLMIC) for 
+            “Computerization of PACS” was held on 8-07-2022. District level and state level Implementation & 
+            Monitoring Committee to be formed by State Government and provide feedback to NLMIC on 
+            progress of computerization. NABARD will be responsible for implementation of project at Central 
+            level under guidance of National level Monitoring and Implementation Committee. Project 
+            Monitoring Unit (PMU) will be set up at Central level by NABARD and this will be manned by 
+            technical experts for finalizing project design & implementation strategy. All states will 
+            have common software implementation at PACS, for further synchronization with National Level 
+            PACS Software. Components cost for PACS, like (Hardware, digitization & support system) will 
+            be shared in the ratio GoI: State (60:40). For software, training & PMU cost will be transferred 
+            to NABARD by GoI as per payment timelines of the contract with National Level PACS Software Vendor 
+            (NLPSV). Timeline for PACS computerization is planned in Year wise phasing of the project:
+            </p>
+            <p>
+            Year 1: 2022-23(13000 PACS)<br>
 
-            Year 1: 2022-23(13000 PACS)
+            Year 2: 2023-24(20000 PACS)<br>
 
-            Year 2: 2023-24(20000 PACS)
+            Year 3: 2024-25(30000 PACS)<br>
 
-            Year 3: 2024-25(30000 PACS)
+            Year 4: 2025-26 & Year 5: 2026-27, Total of 63000 PACS.<br>
+            </p>
+            <p> 
+            Uttarakhand State has 670 PACS in total, 645 out of 670 are being computerized, difference of 
+            25 PACS is in the progress of being merged together. Hardware has been distributed to 643 PACS. 
+            Key components for PACS computerization: ERP Solution, Hardware, PMUs, Training, Support & maintenance. 
+            As per NLMIC guidelines responsibility of State Government will be as follows: Opening of SNA account, 
+            Audit of PACS, facilitating NABARD to set up SLIMC & DLIMC and meeting their covenants, approval of 
+            operational guidelines of the project. 
+            </p>
 
-            Year 4: 2025-26 & Year 5: 2026-27, Total of 63000 PACS. 
-            Uttarakhand State has 670 PACS in total, 645 out of 670 are being computerized, difference of 25 PACS is in the progress of being merged together. Hardware has been distributed to 643 PACS. Key components for PACS computerization: ERP Solution, Hardware, PMUs, Training, Support & maintenance. As per NLMIC guidelines responsibility of State Government will be as follows: Opening of SNA account, Audit of PACS, facilitating NABARD to set up SLIMC & DLIMC and meeting their covenants, approval of operational guidelines of the project. </p>
+            <img 
+              src="https://basavapurushottam.com/wp-content/uploads/2024/07/NLMIC-PIC-2-1280x720.jpg"
+              alt="Article illustration"
+              style="max-width:50%; height:auto;"
+            />
+           <img 
+              src="https://basavapurushottam.com/wp-content/uploads/2024/07/NLMIC-PIC-1-scaled.jpg"
+              alt="Article illustration"
+              style="max-width:50%; height:auto;"
+            />
            
             `,
         desc:
@@ -310,7 +369,7 @@ export const blogData = [
         sub: "by Basava | 6 July 2022 | Cooperative, The office, Uttarakhand Cooperative Development Project | 0 Comments",
          author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -333,7 +392,7 @@ export const blogData = [
         sub: "by Basava | 30 June 2022 | Animal Husbandry, The office | 0 Comments",
          author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -355,7 +414,7 @@ export const blogData = [
         sub: "by Basava | 27 June 2022 | The office, Uttarakhand Cooperative Development Project | 0 Comments",
          author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -379,7 +438,7 @@ export const blogData = [
         sub: "by Basava | 27 June 2022 | The office, Uttarakhand Cooperative Development Project | 0 Comments",
          author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -402,7 +461,7 @@ export const blogData = [
         sub: "by Basava | 16 June 2022 | Animal Husbandry, Dairy, The office | 0 Comments",
         author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -426,7 +485,7 @@ export const blogData = [
         sub: "by Basava | 16 June 2022 | The office, Uttarakhand Cooperative Development Project | 0 Comments",
         author: "Basava",
         date: "17 July 2022",
-        category: "Cooperative",
+        category: "Cooperative | The Office | Uncategorized | Uttarakhand Cooperative Development Project",
         tags: [
           "Cooperative",
           "The Office",
@@ -456,7 +515,7 @@ export const blogData = [
         sub: "by BVRC Purushottam | 24 December 2025 | Personal Blog | 0 Comments",
         author: "Basava",
         date: "Dec 24, 2025",
-        category: "Cooperative",
+        category: "Personal Blog",
         tags: [ 
           "CHILD",
           " FRIEDRICH NIETZSCHE",
@@ -707,7 +766,7 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 16, 2025",
-        category: "Cooperative",
+        category: "Personal Blog",
         tags: [ 
           "",
         ],
@@ -743,7 +802,7 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 24, 2025",
-        category: "Cooperative",
+        category: "Personal Blog",
         tags: [ 
           "CHILD",
           " FRIEDRICH NIETZSCHE",
@@ -937,9 +996,9 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
-          "",
+          "Dairy", "Stories through Data",
         ],
         content: `
           <p>
@@ -957,9 +1016,9 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
-          "",
+          "ET","stories_through_data"
         ],
         content: `
           <p>
@@ -997,7 +1056,7 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
           "",
         ],
@@ -1017,9 +1076,9 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
-          "",
+          "Stories Through Data",
         ],
         content: `
           <p>
@@ -1037,7 +1096,7 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
           "",
         ],
@@ -1056,9 +1115,9 @@ export const blogData = [
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
         date: "Dec 6, 2025",
-        category: "Dairy, Stories through Data",
+        category: "Personal Blog",
         tags: [ 
-          "",
+          "Stories Through Data",
         ],
         content: `
           <p>

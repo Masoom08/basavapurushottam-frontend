@@ -7,8 +7,13 @@ export default function PhilosophyCard() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
+  const reversedPosts = [...posts].reverse();
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
-  const currentPosts = posts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+  const currentPosts = reversedPosts.slice(
+    startIndex,
+    startIndex + POSTS_PER_PAGE
+  );
+
 
   return (
     <div className="relative z-10 w-full">
