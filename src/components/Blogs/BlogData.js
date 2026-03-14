@@ -1001,9 +1001,314 @@ export const blogData = [
           "Dairy", "Stories through Data",
         ],
         content: `
-          <p>
-            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          <h2>How Two Dairy Officers Discovered the Power of Good Graphs</h2>
+          <h2>The Morning Discovery</h2>
+          <p>The morning sun filtered through the windows of the Department 
+            of Dairy Development in Dehradun. Rajesh Kumar, a senior dairy 
+            officer with fifteen years of experience, sat hunched over his 
+            computer screen, his coffee growing cold beside him. His colleague, 
+            Priya Sharma, a data analyst who had joined the department two 
+            years ago, walked in carrying a stack of reports.
           </p>
+
+          <p>“Rajesh sir, have you seen the latest milk procurement numbers? 
+          They’re remarkable!” Priya exclaimed.</p>
+
+          <p>“I’m looking at them right now,” Rajesh replied, adjusting his 
+            glasses. “From 188,780 kg daily average in 2023-24 to 212,204 kg in 
+            2024-25. That’s a 12.4% jump! In all my years here, I haven’t seen 
+            such growth.”
+          </p>
+
+          <p>Priya pulled up a chair and opened her laptop. “But here’s what’s 
+          interesting,” she said, her eyes lighting up with the excitement of 
+          discovery. “Look at the silage sales data over the same period. We 
+          started the subsidized silage program in 2020-21 with just 384 MT 
+          average sales. Now, in 2024-25, we’re at 24,351 MT. That’s a 6,240% 
+          increase!”
+          </p>
+
+          <h3>Chapter 1: The Scatter Plot – Priya’s First Discovery</h3>
+
+          <p>Rajesh leaned forward, intrigued. Priya’s fingers flew across her 
+          keyboard. “The first thing I did was create a scatter plot,” she 
+          explained. “It’s the gold standard for showing correlation between 
+          two variables.”
+          </p>
+
+          <p>She turned her screen toward Rajesh. “See? Each dot represents one 
+          year. The horizontal position shows silage sales, and the vertical 
+          position shows milk procurement. If there’s a relationship, the dots 
+          should form a pattern.”
+          </p>
+
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/12/image-980x612.png"
+          >
+          </img>
+
+          <p>“And they do form a pattern!” Rajesh exclaimed. “They’re arranged 
+          almost in a straight line from bottom-left to top-right.”
+          </p>          
+
+          <p>“Exactly!” Priya said enthusiastically. “That’s what a strong positive 
+          correlation looks like. The correlation coefficient is 0.94, which is 
+          very strong. As silage sales increase, milk procurement increases in 
+          a predictable way.”
+          </p>
+
+          <p><strong>Key Insight:</strong> The scatter plot is perfect for seeing correlation at a 
+          glance. The tighter the clustering along an imaginary line, the 
+          stronger the correlation. Our R² value of 0.88 means that 88% of the 
+          variation in milk procurement can be explained by silage sales.
+          </p>
+
+          <p>“But sir,” Priya continued, “I know what you’re thinking. Correlation 
+          doesn’t always mean causation. So I created several other graphs to 
+          tell the complete story.”
+          </p>
+
+          <h3>Chapter 2: The Dual-Axis Chart – Seeing Time</h3>
+
+          <p>Rajesh rubbed his chin thoughtfully. “The scatter plot is convincing, 
+          but it doesn’t show us when things happened. Can you show me the 
+          time progression?”
+          </p>
+
+          <p>“Of course,” Priya replied, pulling up another graph. “This is a dual-
+          axis line chart. It shows both metrics over time, but on different 
+          scales.”
+          </p>
+
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/12/image-3-980x564.png"
+          >
+          </img>
+
+          <p>“See how both lines move together?” Priya pointed at the screen. 
+          “When one goes up, the other goes up. When one dips slightly in 
+          2021-22, so does the other. They’re dancing in sync.”
+          </p>
+
+          <p>“But wait,” Rajesh interrupted, “the scales are different. Milk is 
+          measured in hundreds of thousands of kilograms, while silage is in 
+          thousands of metric tons. How do I know they’re really moving 
+          together?”
+          </p>
+
+          <p>“That’s the beauty and the challenge of dual-axis charts,” Priya 
+          acknowledged. “They’re good for presentations because they show 
+          both metrics clearly, but they can be misleading if the scales aren’t 
+          chosen carefully. That’s why I created another visualization that 
+          eliminates this problem entirely.”
+          </p>
+
+          <h3>Chapter 3: The Normalized Overlay – Apples to Apples</h3>
+
+          <p>Priya clicked to reveal another graph. “This one is my favorite for 
+          communicating with non-technical people,” she said with a smile. “I 
+          normalized both variables to a scale of 0 to 100.”
+          </p>
+
+          <p>“What does normalized mean?” Rajesh asked.</p>
+
+          <p>“It means I converted both metrics to the same scale,” Priya 
+          explained. “I took the lowest value of each and called it zero, took 
+          the highest value and called it 100, and placed everything else 
+          proportionally in between. Now we’re comparing apples to apples.”
+          </p>
+
+          <img 
+          src = "https://basavapurushottam.com/wp-content/uploads/2025/12/image-4-1024x705.png"
+          ></img>
+          <p>Rajesh’s eyes widened. “They’re almost on top of each other! The 
+          lines follow nearly identical paths!”</p>
+
+          <p>“Exactly!” Priya beamed. “When lines move together in normalized 
+          space like this, the correlation is visually undeniable. This is perfect 
+          for reports to the Secretary or presentations to farmers’ 
+          associations. People don’t need to understand statistics – they can 
+          see with their own eyes that these two things are connected.”</p>
+
+          <p><strong>Pro Tip:</strong> Normalized overlays are the secret weapon for public 
+          communication. They eliminate confusion from different scales and 
+          make correlation obvious to everyone, regardless of their technical 
+          background.</p>
+
+          <h3>Chapter 4: Year-over-Year Growth – The Synchronized Dance</h3>
+          <p>“But correlation could still be coincidence,” Rajesh said, playing 
+          devil’s advocate. “Maybe they both increased for different reasons 
+          that just happened at the same time.”</p>
+
+          <p>Priya nodded approvingly. “Good skepticism, sir. That’s why I 
+          looked at the year-over-year percentage changes. If the correlation 
+          is meaningful, they should move in sync not just in absolute terms, 
+          but in their growth patterns too.”</p>
+
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/12/image-5-980x667.png">
+          </img>
+
+          <p>“Look at this,” Priya explained. “In 2021-22, both had negative growth – they both declined slightly. In 2022-23, both showed moderate positive growth. Then in 2023-24 and 2024-25, both exploded with massive growth.”
+          </p>
+          <p>“They’re not just moving together,” Rajesh observed, “they’re accelerating and decelerating together. That’s remarkable.”
+          </p>
+          <p>“This synchronized pattern suggests a causal relationship,” Priya said. “If they were just coincidentally correlated, we wouldn’t expect to see this kind of matching in the rate of change.”
+          </p>
+          <h3>Chapter 5: The Connected Scatter Plot – The Arrow of Time</h3>
+          <p>Rajesh was fully engaged now. “These are all convincing, Priya. But I want to see both the correlation and the time progression in a single view. Can you do that?”
+          </p>
+          <p>“I can!” Priya said excitedly. “This is called a connected scatter plot. It’s like the 
+          </p>
+          <img"
+          src ="https://basavapurushottam.com/wp-content/uploads/2025/12/image-2-980x609.png"
+          ></img>
+
+          <p>“The colors go from red to green as we move from 2020 to 2025,” Priya explained. “See how the system moved from the bottom-left – low silage, low milk – to the top-right – high silage, high milk? The path shows the arrow of time.”
+          </p>
+          <p>Rajesh studied the graph intently. “So we can see that the silage increase came first, and then milk procurement followed. The cause preceded the effect. This is getting very convincing, Priya.”
+          </p>
+          <h3>Chapter 6: The Control Variable – Ruling Out Alternatives</h3>
+          <p>“But here’s the final piece of evidence,” Priya said, her tone becoming more serious. “We need to rule out alternative explanations. What if cattle feed sales also increased dramatically? Then we couldn’t be sure whether it was the silage or the cattle feed that caused the milk increase.”
+          </p>
+          <p>She pulled up one more graph. “This shows cattle feed sales over the same period.”
+          </p>
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/12/image-1-980x661.png"
+          ></img>
+
+          <p>“It increased steadily,” Rajesh observed, “but nothing dramatic like 
+          the silage.”</p>
+
+          <p>“Exactly!” Priya confirmed. “Cattle feed went from 11,238 MT to 
+          18,994 MT – about 69% growth over five years. That’s good steady 
+          growth. But silage went from 384 MT to 24,351 MT – that’s 6,240% 
+          growth! The patterns are completely different.”</p>
+
+          <p>Scientific Principle: To establish causation, we need to eliminate 
+          alternative explanations. By showing that other interventions (like 
+          cattle feed) had different patterns, we strengthen our case that the 
+          silage program was the key driver.</p>
+
+          <h3>Chapter 7: The Three Pillars of Causation</h3>
+          <p>Rajesh stood up and walked to the whiteboard, marker in hand. “You 
+          know, Priya, I think you’ve built something important here. Let me 
+          summarize what you’ve shown me using the three pillars of 
+          establishing causation.”</p>
+
+          <p>He wrote on the board as he spoke:</p>
+
+          <p><strong>Pillar 1: Temporal Sequence</strong></p>
+          <p>“Your connected scatter plot showed us that the silage sales 
+          increased first, then milk procurement followed. Cause must 
+          precede effect. Check.”</p>
+
+          <p><strong>Pillar 2: Plausible Mechanism</strong></p>
+          <p>“We know the biological mechanism: better animal nutrition 
+          through quality silage leads to improved milk yield, which leads to 
+          higher procurement. The pathway from cause to effect is clear and 
+          scientifically established. Check.”</p>
+
+          <p><strong>Pillar 3: Elimination of Alternatives</strong></p>
+          <p>“Your cattle feed analysis showed that no other major intervention 
+          had a similar dramatic pattern. Weather was normal. Cattle 
+          population didn’t change significantly. The silage program stands 
+          out as the unique factor. Check.”</p>
+
+          <p>“So all three pillars are solid,” Priya said with satisfaction. “This 
+          isn’t just correlation – this is causation.”</p>
+
+          <h3>Chapter 8: Choosing the Right Graph – Priya’s Wisdom</h3>
+          <p>As they prepared to present their findings to the Secretary, Rajesh 
+          asked, “Priya, you’ve shown me so many different types of graphs. 
+          How do you know which one to use?”</p>
+
+          <p>Priya smiled. “That’s the art of data visualization, sir. Let me share 
+          what I’ve learned:”</p>
+
+          <p><strong>Different Graphs for Different Audiences:</strong></p>
+          <ul>
+            <li>For statistical analysis and research papers, use scatter plots. They show correlation most precisely and are respected by scientists.
+            <li>For executive presentations, use normalized overlays or dual-axis charts. They make trends obvious without requiring statistical knowledge.
+            <li>For public communication and media, definitely use normalized overlays. They’re the easiest to understand and most visually compelling.
+            <li>For showing causation, combine scatter plots with temporal annotations or use connected scatter plots.
+            <li>For analyzing multiple correlations at once, nothing beats a correlation heatmap (though we didn’t show one today).
+          
+          </ul>
+
+          <p><strong>The Golden Rule:</strong> The best correlation visualization is the one that makes your specific insight obvious to your specific audience. Always ask yourself – what am I trying to show, and who am I showing it to?</p>
+
+          <h3>Chapter 9: The Presentation Success</h3>
+          <p>Two days later, Rajesh and Priya stood in the Secretary’s conference 
+          room. The large screen displayed their normalized overlay chart – 
+          the one Priya had said was perfect for non-technical audiences.</p>
+
+          <p>“As you can see, ma’am,” Rajesh explained, “when we normalized 
+          both metrics to a common scale, the correlation becomes visually 
+          clear. The subsidized silage program has driven remarkable growth 
+          in milk procurement.”</p>
+
+          <p>The Secretary leaned forward, studying the graph. “This is very 
+          clear. And you’ve ruled out other factors?”</p>
+
+          <p>“Yes, ma’am,” Priya chimed in. “We analyzed cattle feed sales, 
+          weather patterns, and cattle population changes. None showed the 
+          dramatic pattern we see with silage. Plus, we interviewed 50 
+          farmers who confirmed that the 75% subsidy made silage 
+          affordable, leading directly to better milk yields.”</p>
+
+          <p>“And what’s the return on investment?” the Secretary asked.</p>
+
+          <p>Rajesh pulled up their economic analysis. “We invest ₹18 crores 
+          annually in subsidies. The additional milk procured is worth ₹29.8 
+          crores to farmers and ₹42 crores in processing and sales value. 
+          That’s a net benefit of ₹53.8 crores – about three times our 
+          investment.”</p>
+
+          <p>The Secretary nodded slowly, then smiled. “This is excellent work. 
+          We need to expand this program to more districts. And Priya, I want 
+          you to train other departments on how to use data visualization 
+          effectively. Good graphs like these make policy decisions so much 
+          easier.”</p>
+
+          <p><strong>Epilogue: The Lessons of Good Visualization</strong></p>
+          <p>As they walked back to their office, Rajesh reflected on what they’d 
+          accomplished. “You know, Priya, this whole exercise taught me 
+          something important about correlation and causation.”</p>
+
+          <p>“What’s that, sir?” Priya asked.</p>
+
+          <p>“We often hear that correlation doesn’t imply causation – and that’s 
+          true. We must be cautious. But the flip side is equally important: 
+          sometimes correlation DOES indicate causation, when we have the 
+          right supporting evidence.”</p>
+
+          <p>He gestured expansively. “The key is not to dismiss correlation, but 
+          to investigate it thoroughly. Your graphs didn’t just show that two 
+          numbers moved together – they told a complete story with multiple 
+          lines of evidence.”</p>
+
+          <p>Priya nodded enthusiastically. “And choosing the right visualization 
+          made all the difference. Each graph type revealed a different aspect 
+          of the relationship:”</p>
+
+          <ul>
+            <li>The scatter plot showed the strength of the correlation (r = 0.94)
+            <li>The dual-axis chart showed both metrics over time
+            <li>The normalized overlay made the correlation visually obvious to everyone
+            <li>The year-over-year chart showed synchronized growth patterns
+            <li>The connected scatter showed temporal precedence (cause before effect)
+            <li>The cattle feed chart ruled out alternative explanations
+          </ul>
+          
+          <p><strong>The Final Lesson:</strong> Good graphs don’t just present data – they tell stories. They guide the viewer through a logical argument. They make complex relationships clear. They turn correlation into understanding, and understanding into action.</p>
+
+          <p>Rajesh stopped at the door to their office and turned to Priya. “You know what? This silage success story isn’t just about agriculture or dairy development. It’s about the power of evidence-based policy making. And at the heart of that is the ability to visualize data effectively.”</p>
+
+          <p>“Yes,” Priya agreed. “Sometimes the difference between a policy that gets approved and one that doesn’t isn’t the data itself – it’s how clearly you can show what the data means.”</p>
+
+          <p>They looked at each other and smiled. They had started the day looking at numbers on a screen. They were ending it with a story of success, proven with evidence, visualized with clarity, and approved for expansion.</p>
+
           `,
         desc:
           "How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a ..."
@@ -1075,14 +1380,241 @@ export const blogData = [
         sub: "by BVRC Purushottam | 15 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
-        date: "Dec 6, 2025",
+        date: "Nov 15, 2025",
         category: "Personal Blog",
         tags: [ 
           "Stories Through Data",
         ],
         content: `
+          <h2>Understanding Real vs. Nominal Interest Rates in India’s Evolving Economy</h2>
+          <h3>Part 1: The Celebration (April 2021)</h3>
           <p>
-            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+            Rajesh Mehta was beaming as he stirred his chai in the office cafeteria. His colleague Priya Sharma noticed his unusually cheerful mood.
+          </p>
+          <p>“You look happy, Rajesh. Good news?” Priya asked, settling into the chair across from him.</p>
+
+          <p>“The best! I finally got approved for my home loan,” Rajesh said, pulling out his phone to show 
+          her the bank’s approval letter. “₹50 lakhs at 6.5% per annum. After years of saving, we’re finally 
+          buying our dream apartment in Pune!”
+          </p>
+          <p>Priya smiled warmly. “That’s wonderful! Congratulations! I’ve been thinking about taking a loan 
+          myself—maybe for a car or eventually a house. But I keep hearing conflicting advice. Some people 
+          say these are great times for loans, others say wait. I’m so confused.”
+          </p>
+          <p>Rajesh nodded knowingly. “I was confused too. My father kept telling me something strange—he said 
+          I’m actually getting ‘free money’ right now. Can you believe that? A loan is free money?”
+          </p>
+          <p>“That sounds… impossible,” Priya said, her analytical mind already skeptical. “Banks aren’t 
+          charities. How can borrowing ever be free?”
+          </p>
+
+          <h3>Part 2: The Explanation (Understanding the Numbers)</h3>
+
+          <p>Rajesh leaned forward, excited to share what he’d learned. “Okay, so you know how banks advertise their loan rates, right? Like my 6.5%—that’s called the nominal interest rate. It’s the number they write in the contract.”
+          </p>
+          <p>“Right,” Priya nodded. “The interest rate you actually pay. What’s confusing about that?”
+          </p>
+          <p>“Nothing, until you factor in inflation,” Rajesh said, pulling up a news article on his phone. “Look at this—inflation in India was around 5-6% during 20211. My father explained that inflation is basically how much your money loses value each year.”
+          </p>
+          <p>Priya’s eyes widened. “So you’re paying 6.5% interest, but your money is losing around 5-6% of its value anyway…”
+          </p>
+          <p>“Exactly!” Rajesh exclaimed. “The real interest rate is what matters—it’s the nominal rate minus inflation. So for me: 6.5% – 5.5% = only 1% real interest rate. I’m barely paying anything in real terms!”
+          </p>
+          <p>“Wait, negative real interest rates?” Priya asked. “How is that even possible?”
+          </p>        
+          <img
+          src ="https://basavapurushottam.com/wp-content/uploads/2025/11/image.png"/>
+
+          <p>“It means inflation is higher than the interest rate,” Rajesh explained. “Look at 2021-2022. The repo rate was 4%, but inflation was around 5-7%. So the real rate was negative—sometimes as low as -3%. This was actually a deliberate policy choice by the RBI to encourage borrowing and spending during the pandemic recovery phase.”
+          </p>   
+          <p>Priya studied the chart carefully. “So this is why everyone says COVID times were great for borrowing…”
+          </p>   
+          <p>“Yes! The government and RBI demonstrated remarkable foresight in deploying expansionary monetary policy—exactly what was needed during an economic crisis. Low real rates encourage people to borrow and spend rather than save, which helped India’s economy recover faster than many other nations.”
+          </p>   
+          <h3>Part 3: The Warning (November 2024)</h3>
+          <p>Fast forward three and a half years. Priya had finally decided to take a home loan. She called Rajesh excitedly.
+          </p>   
+          <p>“Rajesh! I got approved! ₹40 lakhs at 8.75% for an apartment in Mumbai. I’m so excited—finally following your footsteps!”
+          </p>   
+          <p>There was a long pause on the other end.
+          </p>   
+          <p>“Priya… have you checked the current inflation numbers?” Rajesh’s voice sounded concerned.
+          </p>   
+          <p>“Why? I got a decent rate, didn’t I? I mean, it’s higher than your 6.5%, but the banker said rates are up everywhere—”
+          </p>   
+          <p>“Pull up the latest inflation data,” Rajesh interrupted. “What’s the current inflation rate?”
+          </p>   
+          <p>Priya quickly googled it. “Um… it says inflation has dropped to around 3-4% in late 20243…”
+          </p>   
+          <p>“And your interest rate is?”
+          </p>   
+          <p>“8.75%…” Priya’s voice trailed off as realization dawned.
+          </p>   
+          <p>“Your real interest rate is 8.75% – 3.5% = 5.25%,” Rajesh said gently. “Priya, you’re paying significantly more in real terms than I did during the pandemic period.” “But… but… how did this happen?” Priya’s excitement had turned to shock.
+          </p>   
+          <img
+          src ="https://basavapurushottam.com/wp-content/uploads/2025/11/a-graph-showing-the-growth-of-the-government-ai-g-1280x716.png"
+          />
+
+
+          <h3>Part 4: The Great Shift (Understanding What Changed)</h3>
+          <p>Rajesh sent her a detailed graph. “See this? The RBI demonstrated exemplary economic management by responding swiftly to rising inflation. Starting in 2022, the central bank judiciously raised the repo rate from 4% to 6.5% by early 20234—a substantial 250 basis points increase in just 9 months. This decisive action successfully brought inflation under control, protecting the purchasing power of all Indians.”
+          </p> 
+          <p>“But if they raised rates to fight inflation, and inflation came down, shouldn’t that be good for everyone?”
+          </p> 
+          <p>“It is good for the economy as a whole,” Rajesh explained. “The RBI’s policies have been remarkably effective in achieving price stability. Here’s the evolution of monetary policy phases:
+          </p> 
+          <p><strong>Phase 1 – Economic Stimulus (2020-2022): Negative Real Rates</strong></p> 
+          <ul>
+            <li>Repo Rate: 4.0%
+            <li>Inflation: 5-7%
+            <li>Real Rate: -1% to -3%
+            <li><strong>Impact:</strong> The RBI’s accommodative stance provided crucial liquidity support to businesses and households, enabling India to navigate the pandemic with relatively lower economic disruption compared to many developed economies.
+          </ul>
+
+          <p><strong>Phase 2 – Transition Period (2023): The Normalization</strong></p> 
+          <ul>
+            <li>Repo Rate: 6.5%
+            <li>Inflation: 6-7%
+            <li>Real Rate: Near zero to slightly positive
+            <li><strong>Impact:</strong> The government and RBI carefully managed this transition, balancing growth objectives with inflation control—a delicate act that required exceptional policy coordination. 
+          </ul>
+
+          <p><strong>Phase 3 – Price Stability (2024-2025): Positive Real Rates</strong></p> 
+          <ul>
+            <li>Repo Rate: 6.5% (with recent cuts beginning in 2025)
+            <li>Inflation: 3-4%
+            <li>Real Rate: +2.5% to +3.5%
+            <li><strong>Impact:</strong> Thanks to the RBI’s prudent monetary management, inflation has been successfully controlled while maintaining economic stability—a testament to India’s strong macroeconomic fundamentals.” 
+          </ul>
+
+          <h3>Part 5: The Bigger Picture (Economic Implications)</h3>
+          <p>Priya was silent for a moment, processing this. “So timing really is everything…”
+          </p>
+          <p>“It’s not just timing—it’s understanding the economic cycle,” Rajesh said. “During COVID, India’s policymakers made the right call by prioritizing economic support through low real rates—a policy tool brilliantly deployed to stimulate growth when it was needed most. Now, with the economy on stronger footing, maintaining price stability prevents overheating and ensures sustainable long-term growth. Both phases reflect excellent economic stewardship by our institutions.”
+          </p>
+          <p>“But that feels challenging for people like me who couldn’t afford to buy during COVID,” Priya said thoughtfully.
+          </p>
+          <p>“That’s a natural observation,” Rajesh admitted. “Economic cycles do create different opportunities at different times. However, the alternative—allowing unchecked inflation—would have been far worse for everyone, especially the economically vulnerable. The RBI chose to protect the broader economy, which is the right priority.”
+          </p>
+
+          <h3>Part 6: The Silver Lining (What Can Be Done)</h3>
+          <p>“So what do I do now?” Priya asked. “Cancel my loan?”</p>
+
+          <p>“No, no,” Rajesh reassured her. “You still need a home, and 8.75% is still manageable in historical context. Here’s what you should know:
+          </p>
+
+          <h2>Strategy 1: Benefit from Future Rate Cuts</h2>
+          <ul>
+          <li>The RBI has begun reducing rates in 20255 to support growth—another example of proactive policy management
+          <li>If inflation remains well-anchored, rates will likely come down further
+          <li>Consider a floating rate loan so you can benefit from future rate cuts
+          </ul>
+
+          <h2>Strategy 2: Understand Your Real Cost</h2>
+          <ul>
+          <li>Don’t just look at nominal rates—calculate your real borrowing cost
+          <li>Factor in tax deductions on home loans (₹2 lakhs under Section 24)6—the government’s support for homeownership
+          <li>Your effective real rate might be lower than you think when you account for tax benefits
+          </ul>
+
+          <h2>Strategy 3: Smart Prepayment Approach</h2>
+          <ul>
+            <li>In a higher real-rate environment, prepayment can make good financial sense
+            <li>Every ₹1 lakh you prepay now generates real savings
+            <li>Build a prepayment plan aligned with your income growth and financial goals
+          </ul>
+          <p>“This is incredibly useful, Rajesh. Thank you for explaining all of this!”
+          </p>
+
+          <h2>Conclusion: The Key Lessons</h2>
+          <p>          
+          Priya nodded thoughtfully. “So the key takeaway is: always calculate the real interest rate, not just the nominal one. And appreciate that our policymakers are navigating complex tradeoffs to benefit the economy as a whole.”
+          </p>
+          <p>
+          “Exactly,” Rajesh confirmed. “And understand the broader economic context. Are we in a stimulus phase, transition phase, or stability phase? India’s institutions have managed these phases exceptionally well—providing support when needed during COVID and ensuring stability as we recover.”
+          </p>
+          <p>
+          “I’m grateful for the perspective,” Priya said. “Understanding these concepts helps me appreciate both the economic policies and make better personal decisions.”
+          </p>
+          <p>
+          “That’s the spirit,” Rajesh said. “Knowledge is power. Even if we can’t time the market perfectly, understanding these concepts helps us make informed decisions. And maybe you can share this with others—help them appreciate the complexity of economic management and make better financial choices.”
+          </p>
+          <p>
+          As they wrapped up their conversation, Priya looked at the charts again. The story of India’s real interest rates wasn’t just about percentages and economic policy—it was about how sound institutional decision-making creates the foundation for millions of Indians to pursue their dreams, whether in 2021 or 2024.
+          </p>
+          <h2>Key Takeaways for Readers</h2>
+          <p><strong>Nominal Interest Rate:</strong> The stated rate on your loan or investment—what the bank advertises.
+          </p>
+          <p><strong>Real Interest Rate:</strong> The nominal rate adjusted for inflation—what you actually pay or earn in terms of purchasing power.
+          </p>
+          <p><strong>Formula:</strong> Real Interest Rate = Nominal Interest Rate – Inflation Rate
+          </p>
+          <p><strong>Why It Matters:</strong></p>
+
+          <ul>
+          <li>A 6% loan during 6% inflation means very low real borrowing cost
+          <li>An 8% loan during 2% inflation means higher real borrowing cost
+          <li>Understanding this helps you make informed financial decisions across economic cycles
+          </ul>
+          <p><strong> For Researchers: </strong>This scenario illustrates India’s exemplary monetary policy management through different economic phases, offering insights into the balance between economic stimulus, inflation control, and sustainable growth—a model worthy of study for emerging economies globally.
+          </p>
+          <h2>References and Data Sources</h2>
+          <p>All data and analysis in this article is based on official sources and verified economic data:
+          </p>
+          <p>1. Macrotrends – India Inflation Rate Historical Data. https://www.macrotrends.net/countries/IND/india/inflation-rate-cpi
+          </p>
+          <p>2. Shriram Finance – Repo Rate Trends in India (2010-2025). https://www.shriramfinance.in/article-detailed-historical-repo-rate-trends-in-india
+          </p>
+          <p>3. Trading Economics – India Inflation Rate. https://tradingeconomics.com/india/inflation-cpi
+          </p>
+          <p>4. Reserve Bank of India – Annual Report on Monetary Policy. https://rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1316
+          </p>
+          <p>5. Groww – RBI Cuts Repo Rate from 6.5% to 6.25%. https://groww.in/blog/rbi-cut-repo-rate-from-6.5-to-6.25
+          </p>
+          <p>6. Ujjivan Small Finance Bank – Section 24(b) Home Loan Tax Deduction. https://www.ujjivansfb.in/banking-blogs/borrow/section-24-b-of-income-tax-act
+          </p>
+          <p>Additional Reference Sources:
+          </p>
+          <ul>
+          <li>Reserve Bank of India Official Website: https://rbi.org.in
+
+          <li>World Bank Data on India Inflation: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IN
+          </ul>
+          <h2>Important Disclaimers</h2>
+          <h3>1. AI-Assisted Writing</h3>
+          <p>This article was written with assistance from Claude AI (Anthropic). While every effort has been made to ensure accuracy and proper attribution of all sources, there may be errors. I sincerely apologize for any mistakes and welcome corrections.
+
+          <h3>2. Fictional Characters</h3>
+          <p>Rajesh Mehta and Priya Sharma are entirely fictional characters created to make complex economic concepts accessible through narrative storytelling. All economic data and policy information are real and properly cited from official and verified sources. If any content inadvertently causes offense, I sincerely apologize—no harm was intended. The characters serve purely as educational devices to illustrate real economic phenomena.
+
+          <h3>3. Intent and Purpose</h3>
+          <p>This article is written with the following objectives:</p>
+
+          <ul>
+          <li>To encourage critical thinking and data-driven economic analysis
+          <li>To provide narrative examples illustrating how monetary policy affects real people
+          <li>To present economic data in accessible, engaging format
+          <li>To appreciate the complexity involved in macroeconomic management by India’s institutions
+          </ul>
+
+          <p><strong>This article is NOT intended as:</strong></p>
+
+          <ul>
+          <li>Financial advice (please consult qualified financial advisors)
+          <li>Any form of criticism of government policies, institutions, or individuals
+          <li>An endorsement of any particular financial strategy
+          </ul>
+
+          <p>The analysis celebrates the effective policy responses by India’s institutions during both crisis and recovery phases, recognizing the exceptional coordination and foresight demonstrated by policymakers.
+          </p>
+
+          <h3>4. Financial Disclaimer</h3>
+          <p>Past economic conditions do not guarantee future results. The scenarios presented are simplified for educational purposes. Real-world financial decisions should be made only after consulting with qualified financial professionals who can assess your complete financial situation, goals, and risk tolerance.
+          </p>
+
+          <h3>5. Acknowledgment of Policy Excellence</h3>
+          <p>This article recognizes the exceptional work of India’s economic policymakers—particularly the Reserve Bank of India and the Government of India—in navigating the unprecedented challenges of the COVID-19 pandemic and its aftermath. The coordinated policy response, which included aggressive monetary accommodation during crisis followed by prudent normalization, exemplifies world-class economic stewardship. India’s successful management of both economic support during pandemic and subsequent inflation control stands as a model for emerging economies globally.
           </p>
           `,
         desc:
@@ -1095,7 +1627,7 @@ export const blogData = [
         sub: "by BVRC Purushottam | 9 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
-        date: "Dec 6, 2025",
+        date: "Nov 9, 2025",
         category: "Personal Blog",
         tags: [ 
           "",
@@ -1110,19 +1642,194 @@ export const blogData = [
       },
       {
         id:"10",
-        heading:"Stories_through_data_week1.Download Stories through Data : Week 2 , Credit card loans vs Housing Loans",
+        heading:"Stories through Data: Week 2 , Credit card loans vs Housing Loans",
         sub:"by BVRC Purushottam | 9 November 2025 | Personal Blog | 0 Comments",
         image:["https://basavapurushottam.com/wp-content/uploads/2024/04/cropped-bvv1.jpg"],
         author: "Basava",
-        date: "Dec 6, 2025",
+        date: "Nov 9, 2025",
         category: "Personal Blog",
         tags: [ 
           "Stories Through Data",
         ],
         content: `
-          <p>
-            How Two Dairy Officers Discovered the Power of Good Graphs The Morning Discovery The morning sun filtered through the windows of the Department of Dairy Development in Dehradun. Rajesh Kumar, a...
+          <h2>Welcome to Stories with Data, Week 2</h2>
+          <p>Today we will examine the problem of <strong>Rising Credit Card Defaults and 
+          Personal Loan Portfolio Management in Scheduled Commercial Banks</strong></p>
+
+          <h2>The Banker’s Dilemm</h2>
+
+          <p>A story of credit, risk, and the numbers that keep bankers awake at night
           </p>
+          <p>
+            Rajesh stared at the quarterly report, his coffee growing cold. As Chief 
+            Credit Officer at a major public sector bank, the numbers told a troubling 
+            story. The morning sun filtered through his office window, but the 
+            atmosphere inside was anything but bright.
+          </p>
+
+          <p>“Credit cards are our biggest problem,” he muttered to himself.</p>
+
+          <p>The growth numbers seemed impressive at first glance—credit card 
+          outstanding balances had grown 27.5% this year. But Rajesh knew better 
+          than to celebrate. Last year, the growth had been 30.6%. The slowdown 
+          was evident across the board.
+          </p>
+
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/11/growth-trends-comparison-1280x766.png",
+
+          />
+
+          <p>Figure 1: The deceleration was clear—every loan category was losing momentum (Source: RBI Financial Stability Report, Chart 2.1)
+          </p>
+
+          <p>His colleague Priya walked in, holding her own copy of the report. “What’s the damage?” she asked, knowing the answer wouldn’t be good.
+          </p>
+
+          <p>“It’s worse than I thought,” Rajesh replied, pulling up another chart on his screen. “Look at this.”
+          </p>
+
+          <p>The asset quality numbers painted a stark picture. Credit card receivables 
+          had the highest gross non-performing assets at <strong>14.3%</strong>—meaning nearly 
+          one in seven credit card loans was turning bad. In contrast, housing loans 
+          maintained a remarkably low GNPA of just <strong>1.0%.</strong>
+          </p>
+
+          <img
+          src = "https://basavapurushottam.com/wp-content/uploads/2025/11/gnpa-comparison-across-loan-categories-1280x762.png"
+          />
+
+          <p>Figure 2: Credit cards deep in the danger zone while housing loans remained rock solid (Source: RBI Financial Stability Report, Chart 2.1b)</p>
+
+          <p>Priya leaned in closer. “That’s alarming. What’s driving this?”</p>
+
+          <p>“Market saturation,” Rajesh explained, clicking to the next slide. “We’re 
+          seeing it everywhere. Active credit card consumers grew only <strong>3.7%</strong> this 
+          year, compared to <strong>9.9%</strong> last year. People aren’t just slowing down—they’re 
+          maxing out and defaulting more.”
+          </p>
+
+          <p><strong>Warning Sign:</strong> When consumer acquisition drops by nearly two-thirds 
+          in a single year, it signals deeper market problems.
+          </p>
+
+          <img
+          src="https://basavapurushottam.com/wp-content/uploads/2025/11/credit-card-consumer-growth-slowdown-1280x763.png"
+          />
+
+          <p>Figure 3: The market saturation signal—a 62.6% decline in consumer growth (Source: RBI Financial Stability Report, Chart 2.1d)
+          </p>
+
+          <p>Priya studied the numbers carefully. “What about personal loans? I heard they were doing well.”
+          </p>
+
+          <p>“Were,” Rajesh emphasized. “Personal loan growth dropped sharply from 23.0% to just 8.9% year-over-year. The correction we feared is here.”</p>
+          
+          <p>He stood up and walked to the window, looking out at the city below. Somewhere out there, thousands of borrowers were struggling with debt they couldn’t repay. The human cost behind these numbers weighed heavily on him.
+          </p>
+
+          <p>“So what’s keeping us afloat?” Priya asked.
+          </p>
+
+          <p>Rajesh turned back with a slight smile. “Housing loans. They’re the bedrock of our portfolio
+          </p>
+
+          <img
+          src = "https://basavapurushottam.com/wp-content/uploads/2025/11/portfolio-composition-analysis-1280x555.png"
+          />
+
+          <p>Figure 4: The portfolio reality—housing loans dominate while credit cards remain a small but risky segment (Source: RBI Financial Stability Report, Chart 2.1c)
+          </p>
+
+          <p>He pulled up the final chart. “Look at this. Housing loans represent 47% of our personal loan portfolio with steady 12.8% growth and barely 1% GNPA. Credit card debt? Just 4.9% of the portfolio.”
+          </p>
+
+          <p><strong>10x</strong></p>
+
+          <p>Housing loans are ten times larger than credit card debt</p>
+
+          <p>“So why are we so worried about credit cards?” Priya asked.</p>
+
+          <p>“Because they’re the canary in the coal mine,” Rajesh explained. “When 
+          credit card defaults spike, it means consumers are in trouble. They pay 
+          their mortgages first—they’ll skip credit card payments before losing 
+          their homes. But if credit card defaults are this high, what happens when 
+          the economy really turns?”</p>
+
+          <p>The room fell silent as the implication sank in.</p>
+
+          <p>“So what’s our strategy?” Priya finally asked.</p>
+
+          <p>Rajesh returned to his desk, his decision made. “Back to basics. We 
+          focus on secured lending—mortgages, loans against property. We tighten 
+          credit card standards significantly. And we monitor personal loans like 
+          hawks.”</p>
+
+          <p>He closed his laptop with finality. “The credit card party is over. 
+          It’s time to remember what banking is really about—prudent lending to 
+          people who can actually pay us back.”</p>
+
+          <p><strong>The Bottom Line:</strong> When unsecured lending shows stress, smart 
+          banks pivot back to secured assets. Housing remains stable because people 
+          prioritize keeping a roof over their heads.</p>
+
+          <h2>Epilogue: Three Months Later</h2>
+          <p>Rajesh’s team had successfully restructured their lending priorities. Credit 
+          card approvals were down 40%, but defaults had stabilized. Meanwhile, their 
+          housing loan portfolio grew steadily, providing the stable returns the bank 
+          needed.</p>
+
+          <p>The quarterly board meeting ended with rare applause. As Rajesh walked out, 
+          Priya caught up with him.</p>
+
+          <p>“You know what you did, right?” she said. “You chose boring stability over 
+          exciting growth.”</p>
+
+          <p>Rajesh smiled. “In banking, boring is beautiful. When you’re responsible for 
+          people’s money, excitement usually means someone’s losing theirs.”</p>
+
+          <p>They walked down the corridor together, past the framed mission statement on 
+          the wall: “Banking built on trust, secured by prudence.”</p>
+
+          <p>For the first time in months, Rajesh felt those words meant something again.</p>
+
+          <h2>References and Data Sources</h2>
+          <p><strong>1. Primary Source:</strong></p>
+
+          <p>Reserve Bank of India (2025). Financial Stability Report, Issue 30, June 2025. 
+          Chart 2.1: Deposit and Credit Profile of SCBs. Retrieved from https://www.rbi.org.in</p>
+
+          <p><strong>2. Additional Analysis:</strong></p>
+
+          <p>All growth rates, GNPA ratios, and portfolio composition percentages are derived 
+          from RBI Financial Stability Report data, representing Public Sector Banks (PSBs), 
+          Private Banks (PVBs), and Foreign Banks (FBs) performance metrics for the period 
+          March 2024 to March 2025.</p>
+
+          <p><strong>3. Analytical Framework:</strong></p>
+
+          <p>The narrative analysis and interpretations are based on standard banking risk 
+          management principles and portfolio theory, drawing insights from publicly available 
+          regulatory data and academic research on credit risk assessment in scheduled 
+          commercial banks.</p>
+
+          <h2>Important Disclosures</h2>
+          <p><strong>1. AI-Assisted Writing:</strong> This article was written with assistance from Claude AI. 
+          While I’ve made every effort to ensure accuracy, there may be errors. I sincerely 
+          apologize for any mistakes.</p>
+
+          <p><strong>2. Fictional Characters:</strong> The Mehta family and Priya Sharma are fictional characters 
+          created solely to make complex financial data accessible and engaging. All economic data 
+          and trends are real and properly cited. If any content inadvertently causes offense, 
+          I sincerely a apologize—no harm was intended.</p>
+
+          <p><strong>3. Intent and Purpose:</strong> This article is written purely to encourage critical thinking, 
+          independent research, and data-driven analysis among readers. It is not intended as a 
+          critique of any government policies, institutions, or individuals. The analysis is based 
+          on publicly available data and academic research, presented objectively to foster informed 
+          discussion. If any content is interpreted as criticism, I sincerely apologize—that was 
+          never my intention.</p>
+
           `,
         desc:"Welcome to Stories with Data, Week 2 Today we will examine the problem of Rising Credit Card Defaults and Personal Loan Portfolio Management in Scheduled Commercial Banks The Banker's Dilemma A story of credit, risk, and the numbers that keep bankers awake at night...",
       }

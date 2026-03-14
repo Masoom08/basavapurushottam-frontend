@@ -826,7 +826,7 @@ description:
       
 
       `,
-      date: "Jan 17, 2025",
+      date: "Jan 17, 2026",
       description:"We all have moments where we wonder: \"Is there really a God?\" or \"Is there really life after death?\" Some people say \"Yes, definitely.\" Others say \"No, that is just superstition.\" It can be very confusing. But did you know that a French mathematician and the Lord..."
     },
     {
@@ -932,7 +932,7 @@ description:
       churn and cultivate the distinctly human skills required to lead in a machine-driven world.
       </strong></p>
       `,
-      date: "Jan 18, 2025",
+      date: "Jan 18, 2026",
       description:"4 minutes read time. The cursor blinks. A progress bar crawls across the screen as a large language model processes a dataset that would have taken your team three weeks to analyze. It will finish in four minutes. In that brief window, you pick up your phone, scroll...",
     },
     {
@@ -1111,7 +1111,7 @@ description:
         being diverted from it?
       </p>
       `,
-      date: "Jan 18, 2025",
+      date: "Jan 18, 2026",
       description:"A deep dive into the philosophy of attention in the age of endless ads. Introduction: Ever Notice How \"Advertise\" and \"Divert\" Sound Similar? Isn't it peculiar? \"Advertisement.\" \"Divertissement.\" Two words that, at first blush, seem worlds apart, yet share an uncanny...",
     },
     {
@@ -1269,7 +1269,260 @@ description:
 
 
       `,
-      date: "Jan 19, 2025",
+      date: "Jan 19, 2026",
       description:"Have you ever picked up your phone to check the time, only to find yourself, thirty minutes later, deep in a rabbit hole of cat videos or celebrity gossip? You aren’t alone. In fact, you are participating in a philosophical struggle that has puzzled great thinkers for...",
+    },
+    {
+      id:"16",
+      title: "The Paradox of Presence: Reconciling the Bhagwat Gita and J. Krishnamurti",
+      author: "BVRC Purushottam",
+      tags: ["Bhagwat geetha " , "Jiddu Krishnamurthy"],
+      content:`
+
+      <p>How do we act in a world that demands results without being destroyed by the anxiety of those very results? 
+      This is the central tension of the modern human condition. To find an answer, we must bridge two seemingly 
+      disparate worlds: the ancient, structured wisdom of the Bhagavad Gita and the radical, psychological inquiry 
+      of Jiddu Krishnamurti (JK).
+      </p>
+
+      <p>At first glance, they appear to contradict. The Gita encourages “attachment” to the Divine ( Shri Krishna), 
+      while JK warns that all attachment is a form of escape. However, when we look closer, they are both pointing to 
+      the same revolutionary state of being.
+      </p>
+
+      <h2>The Trap of the “Fruit”</h2>
+
+      <p>The Gita’s cornerstone is Nishkama Karma: the performance of duty without any desire for the fruits of labor 
+      (Phala). Krishna’s advice to Arjuna is to act because action is necessary, not because a reward is expected.
+      </p>
+      <p>JK approaches this from a psychological angle. He argues that the moment we focus on a “result,” we are no 
+      longer present with the action. We are living in a future projection—a “shadow” of the mind. This projection 
+      creates a “me” that wants to be successful, powerful, or safe. JK’s “attachment” is essentially the same as the 
+      Gita’s “desire for fruits.” Both identify that the focus on what I will get is what breeds fear and conflict.
+      </p>
+      <h2>Attachment vs. Devotion</h2>
+      <p>
+        JK defines attachment as a movement to fill an inner void. We attach to people, titles, or even gods to avoid 
+        our own loneliness. If your “devotion” to Krishna is just a way to feel safe or superior, JK would label it as 
+        another psychological chain.
+      </p>
+
+      <p> The Gita, however, proposes a higher form of attachment: Ananya Bhakti. This isn’t the clinging of a needy ego, 
+      but the surrender of the small self into the universal whole. To reconcile the two:
+      </p>
+      <ul>
+        <li>
+        <strong>JK provides the diagnosis:</strong> He helps us see if our devotion is actually “disguised attachment” (ego-based).
+        </li>
+        <li>
+        <strong>The Gita provides the orientation:</strong> It directs that energy away from the self and toward the “Total.”
+        </li>
+      </ul>
+
+      <p>When you are “attached” to the Lord in the Vedantic sense, you are actually detached from your personal ego. The two 
+      philosophies meet at the point of self-extinction.
+      </p>
+
+      <h2>Detached Engagement: The Synthesis</h2>
+
+      <p>Reconciling these views leads us to a state of Detached Engagement. This is the art of being 100% committed to the 
+      task at hand while being 0% identified with the outcome.</p>
+
+      <ul>
+        <li>
+        <string>Observation:</strong> Using JK’s “choiceless awareness,” you observe the mind’s tendency to crave recognition 
+        or results.
+        </li>
+        <li>
+        <string>Surrender:</strong> Using the Gita’s framework, you offer that work to something larger than yourself—whether 
+        you call it the Divine, the common good, or the “order of things.”
+        </li>
+      </ul>
+      <p>In this state, you are not “working” to become something; you are acting because it is the right thing to do in the 
+      moment. The “me” that JK warns about dissolves into the “Karma” that Krishna advocates.
+      </p>
+
+      <h3>
+      Conclusion: The Empty Actor
+      </h2>
+
+      <p>
+        The reconciliation is found in the Empty Actor. A person who is “alone” (in JK’s sense of being unconditioned) is 
+        the only one truly capable of Nishkama Karma. Without a psychological “me” to protect, action becomes a flow—spontaneous, 
+        powerful, and free from the burden of success or failure.
+      </p>
+
+      <p>
+        As the Gita suggests, you have a right to the action, but never to the fruits. As JK suggests, when the “me” is absent, 
+        there is only the action. They are the same truth, spoken in different centuries.
+      </p>
+
+      `,
+      date: "Feb 3, 2026",
+      description:"How do we act in a world that demands results without being destroyed by the anxiety of those very results? This is the central tension of the modern human condition. To find an answer, we must bridge two seemingly disparate worlds: the ancient, structured wisdom of...",
+    },
+    {
+      id:"17",
+      title: "The Infinite Opportunity Cost: A Pascalian Call to Action for the Comfort-Bound",
+      author: "BVRC Purushottam",
+      tags: ["blaise pascal", "infinete potential"],
+      content:`
+
+      <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2026/02/Gemini_Generated_Image_q2z7elq2z7elq2z7.png"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+      />
+
+      <p>There is a specific kind of silence that settles in between the ages of 45 and 50. It arrives in 
+      the quiet hours after the house is still, bringing with it a persistent, haunting whisper: “Is this 
+      the sum total of my contribution? Is this the legacy I leave behind?”
+      </p>
+      <p>Most of us drown that whisper out with the “logic of safety.” We look at our stable careers, 
+      our children who are finally reaching a “settling age,” and our nearing retirements. we tell 
+      ourselves that taking a leap now would be irresponsible. However, if we look through the lens 
+      of <strong>Blaise Pascal</strong>, the 17th-century mathematical genius, and the economic principle 
+      of <strong>Opportunity Cost</strong>, we discover a startling truth: your “safe” choice is actually the most 
+      expensive mistake you can make.
+      </p>
+
+      <h3>1. The Math of Your Soul: Expected Value (EV)</h3>
+
+      <p>Pascal didn’t just study numbers; he studied the stakes of human existence. He co-invented 
+      the way we measure risk today through the Expected Value ($EV$) formula. It helps us 
+      decide if a gamble is worth taking by weighing the reward against the probability.
+      </p>
+      <p><strong>EV = (P \times G) – (1-P \times C)</strong></p>
+
+      <ul>
+        <li><strong>P (Probability): The chance of success.</strong></li>
+        <li><strong>G (Gain): The value of the reward.</strong></li>
+        <li><strong>C (Cost): What you lose if you fail.</strong></li>
+      </ul>
+      <p>
+        At 48, your brain is wired to obsess over P (the low 10% chance of a startup succeeding) 
+        and $C$ (the finite savings you might lose). But Pascal’s logic is radical: If the Gain 
+        (G) is Infinite, the Probability (P) almost doesn’t matter. If your leap of faith leads 
+        to a legacy, a solution for the underserved, or the realization of your true purpose, that 
+        gain is Infinite. Mathematically, any fraction of infinity is still infinity.
+      </p>
+
+      <h3>2. The Invisible Thief: Opportunity Cost</h3>
+
+      <p> In economics, <strong>Opportunity Cost</strong> is the value of the “next best thing” you 
+      give up when you make a choice. It is the hidden price tag on every decision.
+      </p>
+
+      <ul>
+        <li><strong>The Opportunity Cost of Trying:</strong> You give up a steady salary, a title, and a 
+        predictable schedule. These are Finite. They have a fixed dollar amount and an expiration date. 
+        You can count them on a spreadsheet.
+        </li>
+        <li><strong>The Opportunity Cost of Not Trying:</strong> You give up the only version of your life 
+        that truly matters. This is an Infinite Opportunity Cost.</li>
+       
+      </ul>
+
+      <p>When you choose “Safety,” you aren’t saving money; you are spending your remaining years buying 
+      a mask of security with the currency of your potential. You are trading a 10% chance at “Everything” 
+      for a 100% chance of “Never Knowing.”
+      </p>
+
+      <h3>3. The Combined Decision Framework</h3>
+
+      <p>Using Pascal’s logic, we can calculate the “Hidden Cost” of your comfort zone. Let’s look at the 
+      math of staying put:
+      </p>
+
+      <p><strong>Expected Value of Stay = (Safety) *(Finite Comfort) – (Risk of Regret)*(Infinite Potential)</strong></p>
+
+      <p>If “Infinite Potential” is truly infinite, then the EV of staying becomes a massive negative number. In plain 
+      English: Staying in your comfort zone is the most expensive decision you can make because the “interest” on your 
+      regret compounds every single year.
+      </p>
+
+      <h3>4. Answering the “Family Protection” Argument</h3>
+
+      <p>The most common shield we use at age 50 is our family. You think: “If I fail, I cost my children 
+      their inheritance.”
+      </p>
+
+      <p><strong>The Correction:</strong> If you don’t try, you cost them the Ultimate Education. The opportunity cost 
+      of “protecting” them is that they never see their parent model courage. You are trading a finite inheritance (money) 
+      for an infinite inheritance (the spirit of adventure and resilience). Your children don’t just need your financial 
+      safety net; they need a map for how to live a life of meaning. By taking the leap, you give them permission to be 
+      brave in their own lives.
+      </p>
+
+      <h3>5. Evidence from the Late Bloomers
+      </h3>
+
+      <p>
+        If you think the clock has run out, look at the giants who stood exactly where you are. They didn’t succeed despite 
+        their age, but because of the wisdom they gained by it:
+      </p>
+
+      <ul>
+        <li><strong>Ray Kroc:</strong> He was 52, selling milkshake mixers while battling health issues, before he finally built the McDonald’s empire.
+        </li>
+        <li><strong>Harland Sanders:</strong> “The Colonel” was 65, broke and living in his car, when he decided to franchise his chicken recipe.
+        </li>
+        <li><strong>Arianna Huffington:</strong> She founded The Huffington Post at 55, proving that the most influential chapters of life often start when the “primary” career is supposed to be winding down.
+        </li>
+      </ul>
+
+      <h2>Summary Table: The Infinite Math</h2>
+
+      <p>To simplify your dilemma, look at this balance sheet:
+      </p>
+
+      <table class="balance-table">
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Economic Opportunity Cost</th>
+            <th>Pascal’s Outcome</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Taking the Leap</td>
+            <td><strong>Finite</strong> (Salary, Pension, Comfort)</td>
+            <td><strong>Infinite Expected Value</strong></td>
+          </tr>
+
+          <tr>
+            <td>Staying Put</td>
+            <td><strong>Infinite</strong> (Legacy, Potential, Impact)</td>
+            <td><strong>Negative Expected Value</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      
+
+      <h2>The Final Wager</h2>
+      <p>Pascal’s Wager tells us that we are already “embarked.” The game has started. You are betting 
+      your life every single day, whether you realize it or not. Choosing to stay in your comfort zone 
+      is still a bet—you are betting that the comfort of the familiar is worth the cost of your soul’s 
+      purpose.
+      </p>
+      <p>
+        The math is in. The stakes are infinite. Don’t let the finite fear of “what if I fail” stop 
+        you from the infinite tragedy of “what if I never tried.”
+      </p>
+
+      <p><strong>Move now. The math demands it.</strong>
+      </p>
+
+      <p><strong>The solution is not to stop distracting yourself.</strong> Pascal knew that was nearly impossible. The solution is to move from 
+      mindless diversion to mindful diversion.
+      </p>
+
+      `,
+      date: "Feb 5, 2026",
+      description:"There is a specific kind of silence that settles in between the ages of 45 and 50. It arrives in the quiet hours after the house is still, bringing with it a persistent, haunting whisper: “Is this the sum total of my contribution? Is this the legacy I leave behind?”...",
     },
   ];

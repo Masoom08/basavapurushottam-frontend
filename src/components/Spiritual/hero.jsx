@@ -12,12 +12,8 @@ export default function Hero() {
     <section
       className="font-[Times_New_Roman] w-full min-h-screen bg-cover bg-center flex items-center justify-center py-24 relative"
       style={{ backgroundImage: `url(${Spiritualbg})` }}
-      // style={{ backgroundImage: `url('${bgUrl}')` }}
       aria-label="My Spiritual Journey hero"
     >
-      {/* translucent overlay */}
-      {/* <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div> */}
-
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="bg-white/60 backdrop-blur-lg rounded-2xl p-6 md:p-10 lg:p-12 shadow-2xl">
           <h1 className="text-4xl md:text-3xl font-semibold text-gray-900 mb-4 text-center">
@@ -42,11 +38,15 @@ export default function Hero() {
               Geeta
             </button>
 
-            <button className="w-64 px-6 py-3 rounded-xl font-medium text-gray-900 bg-gradient-to-r from-[#325876] via-[#D1C4E9] to-[#F8BBD0] shadow-md hover:opacity-90 transition">
+            <button 
+            onClick={() => navigate("/spiritual/yoga")}
+            className="w-64 px-6 py-3 rounded-xl font-medium text-gray-900 bg-gradient-to-r from-[#325876] via-[#D1C4E9] to-[#F8BBD0] shadow-md hover:opacity-90 transition">
               Patanjali Yog Sutras
             </button>
 
-            <button className="w-64 px-6 py-3 rounded-xl font-medium text-gray-900 bg-gradient-to-r from-[#325876] via-[#D1C4E9] to-[#F8BBD0] shadow-md hover:opacity-90 transition">
+            <button 
+            onClick={()=> navigate("/spiritual/geeta-revisited")}
+            className="w-64 px-6 py-3 rounded-xl font-medium text-gray-900 bg-gradient-to-r from-[#325876] via-[#D1C4E9] to-[#F8BBD0] shadow-md hover:opacity-90 transition">
               The Geeta Revisited
             </button>
           </div>
