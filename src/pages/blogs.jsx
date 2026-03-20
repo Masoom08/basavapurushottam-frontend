@@ -1,8 +1,11 @@
 import Footer from "../components/Footer.jsx";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-
+import { blogData } from "../components/Blogs/BlogData";
+import { Link } from "react-router-dom";
 
 export default function Blog() {
+  const personalBlogs =
+  blogData.find(section => section.title === "Personal")?.slides;
   return (
     <div>
       <div className="pt-24 min-h-screen bg-gradient-to-b from-[#b7d2db] to-[#d7a48f] px-6 py-12">
@@ -37,56 +40,33 @@ export default function Blog() {
           {/* Blog Cards */}
           <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            {[
-              {
-                title: "The Second Chapter: Of the Three Metamorphoses",
-                date: "Dec 24, 2025 | Personal Blog",
-                desc:
-                  "After the Prologue, Friedrich Nietzsche's Thus Spoke Zarathustra transitions into the first of Zarathustra’s discourses...",
-              },
-              {
-                title:
-                  "Three Wills, Two Systems: When Philosophy Meets Cognitive Science",
-                date: "Dec 16, 2025 | Personal Blog",
-                desc:
-                  "What drives human behavior? Three German philosophers offered distinct answers...",
-              },
-              {
-                title:
-                  "White Gold and Hard Choices: Policy Analysis for Uttarakhand’s Dairy Future",
-                date: "Dec 14, 2025 | Personal Blog",
-                desc:
-                  "Stories Through Data week 7. Characters: Dr. Meera Rawat, Joint Director...",
-              },
-              {
-                title: "Visualizing Correlation: A Practical Guide",
-                date: "Dec 6, 2025 | Dairy, Stories through Data",
-                desc:
-                  "How two dairy officers discovered the power of good graphs...",
-              },
-            ].map((blog, index) => (
-              <div
-                key={index}
-                className="bg-[#232427] border-2 border-[#b7d2db] rounded-2xl p-6 text-white
-                          hover:translate-y-[-6px] hover:shadow-2xl transition duration-300"
-              >
-                <h3 className="text-[#d7a48f] text-lg font-semibold leading-snug mb-2">
-                  {blog.title}
-                </h3>
+            {personalBlogs?.map((blog) => (
+  <Link
+    key={blog.id}
+    to={`/blogs/personal/${blog.id}`}   // IMPORTANT for routing
+  >
+    <div
+      className="bg-[#232427] border-2 border-[#b7d2db] rounded-2xl p-6 text-white
+                hover:translate-y-[-6px] hover:shadow-2xl transition duration-300"
+    >
+      <h3 className="text-[#d7a48f] text-lg font-semibold leading-snug mb-2">
+        {blog.heading}
+      </h3>
 
-                <p className="text-xs text-[#b7d2db] mb-4">
-                  {blog.date}
-                </p>
+      <p className="text-xs text-[#b7d2db] mb-4">
+        {blog.date} | {blog.category}
+      </p>
 
-                <p className="text-sm leading-relaxed mb-6">
-                  {blog.desc}
-                </p>
+      <p className="text-sm leading-relaxed mb-6">
+        {blog.desc?.slice(0, 120)}...
+      </p>
 
-                <span className="text-[#d7a48f] text-sm font-medium cursor-pointer hover:underline">
-                  read more →
-                </span>
-              </div>
-            ))}
+      <span className="text-[#d7a48f] text-sm font-medium cursor-pointer hover:underline">
+        read more →
+      </span>
+    </div>
+  </Link>
+))}
           </div>
         </div>
       </div>

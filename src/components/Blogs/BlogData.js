@@ -1851,7 +1851,11 @@ export const blogData = [
           "",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220614-WA0002-1536x1521-1.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1868,7 +1872,11 @@ export const blogData = [
           "",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220614-WA0000-1536x1473-1-1280x1228.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1885,7 +1893,11 @@ export const blogData = [
           "cooperative"," Cooperative societies" , "MPACS","UKCDP",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/WhatsApp-Image-2022-05-03-at-10.24.16-AM-1536x1000-1-1280x833.jpeg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1901,7 +1913,11 @@ export const blogData = [
         tags: ["MPACS","UKCDP",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0048.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1917,7 +1933,11 @@ export const blogData = [
         tags: ["MPACS","UKCDP",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0027-768x483-1.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1933,7 +1953,11 @@ export const blogData = [
         tags: [ "cooperative"," Cooperative societies" ,"MPACS","UKCDP",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0031-1536x1492-1.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:""
       },
@@ -1948,7 +1972,11 @@ export const blogData = [
         tags: [ " Cooperative societies" ,"meeting","MPACS","UKCDP",
         ],
         content: `
-          <p></p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/IMG-20220615-WA0032-1536x1391-1.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           ""
@@ -1966,6 +1994,11 @@ export const blogData = [
         content: `
           <h2>Pushpa Harela Festival</h2>
           <p>Witnessed Pushpa Harela Festival arranged by MPACS at Shyampur, Laldhang</p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/Pushp-Harela-Festival.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           "Witnessed Pushpa Harela Festival arranged by MPACS at Shyampur, Laldhang."
@@ -1983,6 +2016,11 @@ export const blogData = [
         content: `
           <h2>Women Participation in MPACS</h2>
           <p>Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc.</p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/MPACS-Women-involvement.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           "Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc."
@@ -2000,6 +2038,11 @@ export const blogData = [
         content: `
           <h2>Women Participation in MPACS</h2>
           <p>Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc.</p>
+          <img 
+          src="https://basavapurushottam.com/wp-content/uploads/2024/07/NEDAC-meeting-pic.jpg"
+          alt="Article illustration"
+          style="max-width:100%; height:auto;"
+        />
           `,
         desc:
           "Active participation by women in MPACS activities like Collective Cooperative Farming of Turmeric, Marigold, mint etc."
